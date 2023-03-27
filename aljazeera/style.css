@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav_bar{
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding-top:9px;
+    padding-right: 9px;  
+    padding-left: 70px;  
+}
+.webname{
+        color: rgb(221, 150, 18); 
+        font-size: 27px;
+        cursor:pointer;
+        padding-right: 230px;
+        
+         
+   
+    
+}
+.logo{ 
+    width: 8%;
+    height: 8%;
+    padding-left
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 9px ;
+    
+
+
+    
+}
+nav ul li a{
+    text-decoration: none ;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right:9%;
+    padding: 14px;       
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    transition: 4s;
+}
+
+
+.images{
+    width: 500;
+    height: 500;
+    position: fixed;
+
+}
